@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AIC AWARDS</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        #logo {
+            max-width: 100px; /* Ajustez la largeur selon vos besoins */
+            height: auto;
+        }
+        form {
+            max-width: 600px;
+            margin: auto;
+        }
+        fieldset {
+            margin-bottom: 20px;
+            border: 1px solid #ddd;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+            text-align: left;
+        }
+        li {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <img id="logo" src="aic.jfif" alt="Logo de votre site">
+    <h1>AIC AWARDS: Révélation de l'année</h1>
+
+    <form action="https://formspree.io/f/xleyqnaw" method="POST">
+        <fieldset>
+            <legend>Votez pour votre candidat(e) :</legend>
+            <ul>
+                <li>
+                    <label>
+                        <input type="radio" name="vote" value="BENIAFET Diane"> BENIAFET Diane
+                    </label>
+                </li>
+                <li>
+                    <label>
+                        <input type="radio" name="vote" value="ZAGBA Cédric"> ZAGBA Cédric
+                    </label>
+                </li>
+                <li>
+                    <label>
+                        <input type="radio" name="vote" value="BRISSY Alex"> BRISSY Alex
+                    </label>
+                </li>
+                <li>
+                    <label>
+                        <input type="radio" name="vote" value="BEHEGBAN Marie-Paule"> BEHEGBAN Marie-Paule
+                    </label>
+                </li>
+            </ul>
+        </fieldset>
+
+        <fieldset>
+            <legend>Informations de contact (facultatif) :</legend>
+            <label>
+                Nom :
+                <input type="text" name="name">
+            </label>
+            <label>
+                Adresse e-mail :
+                <input type="email" name="_replyto">
+            </label>
+        </fieldset>
+
+        <button type="submit">Soumettre le vote</button>
+    </form>
+</body>
+</html>
